@@ -66,5 +66,5 @@ fi
 
 mkdir -p /srv/sbopkg/repo/SBo/14.1 /srv/sbopkg/queue /srv/sbopkg/build /srv/sbopkg/output /srv/sbopkg/src
 
-/usr/sbin/sbopkg "$@"
+/usr/sbin/sbopkg -f /srv/sbopkg/config "$@"
 
